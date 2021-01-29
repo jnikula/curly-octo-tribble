@@ -12,11 +12,10 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('.'))
 
-import ext
+from hawkmoth.util import readthedocs
 
-ext.clang_setup()
+readthedocs.clang_setup()
 
 # print(os.environ.get('LD_LIBRARY_PATH'))
 

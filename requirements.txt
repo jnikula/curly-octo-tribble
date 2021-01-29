@@ -1,3 +1,2 @@
-sphinx
-hawkmoth
-clang
+clang>=6
+hawkmoth>=0.7
